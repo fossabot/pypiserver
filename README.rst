@@ -245,6 +245,8 @@ In that case, ``pypiserver`` is responsible for authenticating the upload-reques
 -------------------------------------------
 
 #. First make sure you have the *passlib* module installed (note that
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTomerAdmon%2Fpypiserver.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FTomerAdmon%2Fpypiserver?ref=badge_shield)
+
    ``passlib>=1.6`` is required), which is needed for parsing the Apache
    *htpasswd* file specified by the ``-P``, ``--passwords`` option
    (see next steps)::
@@ -950,3 +952,6 @@ See the ``LICENSE.txt`` file.
 .. |dependencies| image:: https://img.shields.io/requires/github/pypiserver/pypiserver.svg
     :target: https://requires.io/github/pypiserver/pypiserver/requirements/
     :alt: Dependencies up-to-date?
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FTomerAdmon%2Fpypiserver.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FTomerAdmon%2Fpypiserver?ref=badge_large)
